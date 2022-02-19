@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="=UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale1.0">
+        <title>BABY BOY'S SURVEY FORM</title>
+    
+<!-- css file link -->
+<link rel="stylesheet" href="form.css">
+
+    </head>
+    <body>
+        <div class="container"></div>
+    <header class="header">
+        <h1 id="title">BABY BOY'S SURVEY FORM </h1>
+      <p id="description">Thank You for taking time out to fill this form</p>
+
+    </header>
+<form action="" id="survey-survey">
+<!--Text Section -->
+<div class="form group">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" 
+    class="formcontrol"
+    placeholder="Enter your Name" 
+    required>
+</div> 
+<!-- end of text section-->
+
+<!-- Type email-->
+<div class="form group">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" 
+    class="formcontrol"
+    placeholder="Enter your Email" 
+    required>
+</div> 
+
+<!-- end of email section-->
+
+<!-- Type number section -->
+
+<div class="form group">
+    <label for="phone">Phone Number</label>
+    <input type="number" name="Phone" id="phone" 
+    class="formcontrol"
+    placeholder="Enter your Phone Number" 
+    required>
+</div> 
+
+<!-- end of number-->
+
+
+<!-- Adress Section-->
+<div class="form group">
+    <label for="address">Address <span class="clue">(Optional) </span></label>
+    <input type="text" name="address" id="address" 
+    class="formcontrol"
+    placeholder="Enter your Address" 
+    required>
+</div> 
+
+<!-- End of address Section-->
+  
+
+<!--   select selection-->
+<div class="form-group">
+  <p id="quest">
+     Which option best describes your perspective? 
+  </p>  
+  <select name="Perspective " id="dropdwn" class="formcontrol" required>
+    <option value="" disabled selected>Select Current Perpestive</option>  
+  <option value="Eagle">Eagle</option>
+  <option value="Lion">Lion</option>
+
+  <option value="King">King</option>
+
+  <option value="Playmaker">Playmaker</option>
+
+  <option value="Spectator">Spectator</option>
+
+
+
+</select>
+</div>
+<!--   end of select selection-->
+
+<!-- Radio button-->
+ 
+<div class="form-group">
+    <p id="quest">
+        How are You coping with this Buhari Government
+    </p>
+    <label for="">
+     <input type="radio" 
+     name="source"
+     value="On God"
+     class="inputRadio"
+     checked
+     >   On God
+    </label>
+    <label for="">
+        <input type="radio" 
+        name="source"
+        value="Omo e no easy"
+        class="inputRadio"
+        checked
+        >  Omo e no easy
+       </label> <label for="">
+        <input type="radio" 
+        name="source"
+        value=" I'm Balling"
+        class="inputRadio"
+        checked
+        >  I'm Bailling
+       </label>
+       
+       <label for="">
+        <input type="radio" 
+        name="source"
+        value="Money scarce"
+        class="inputRadio"
+        checked
+        >   Money Scarce
+       </label>
+
+       <label for="">
+        <input type="radio" 
+        name="source"
+        value="Oga no dey ask me yeye queshun"
+        class="inputRadio"
+        checked
+        >   Oga no dey ask me yeye queshun
+       </label>
+
+</div>
+
+<!-- end of Radio button -->
+
+<!-- checkbox section-->
+<div class="form-group"> 
+    <p id="quest"> Do you have your Voter's Card?
+
+    </p>
+    <label for=""> 
+        <input type="checkbox" name="prefer" class="checkbox"
+       value="Tes I have" >Yes I have
+    </label>
+    
+    <label for=""> 
+        <input type="checkbox" name="prefer" class="checkbox"
+       value="I don't know " > I don't know
+    </label>
+</div>
+<label for=""> 
+    <input type="checkbox" name="prefer" class="checkbox"
+   value="No I don't have" > No I don't have
+</label>
+</div>
+<label for=""> 
+    <input type="checkbox" name="prefer" class="checkbox"
+   value=" I have but will not Vote" >I have but will not Vote
+</label>
+<label for=""> 
+    <input type="checkbox" name="prefer" class="checkbox"
+   value="I dont have but will" >I dont have but will
+</label>
+</div>
+
+
+<!-- end of checkbox section-->
+
+<!-- Text area section-->
+
+<div class="form-group">
+    <p id="quest">
+        Drop your feedback for Me
+    </p>
+    <textarea name="Feedback" id="Feedback" cols="30" rows="5" class="textarea"
+    placeholder="Enter Your Feedback Here..."></textarea>
+
+</div>
+
+<!---- end of textarea section-->
+
+<!--- submmit button-->
+
+<div class="form-group">
+    <button type="submit" 
+    id="submit" class="btn">Submit</button>
+</div>
+<!---end of submmit button-->
+
+
+</form>
+
+</body>
+</html>
